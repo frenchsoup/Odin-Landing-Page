@@ -1,0 +1,54 @@
+.header-background,
+.footer-background {
+  background-color: #1f2937;
+}
+
+.header-photo {
+  width: 300px;
+  height: 250px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.small-image {
+  width: 150px;
+  height: 90px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button-and-call {
+  background-color: #3882f6;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author-text {
+  font-weight: bold;
+}
