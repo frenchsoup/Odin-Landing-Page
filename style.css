@@ -1,5 +1,6 @@
+/* Page font styling */
 .header-background,
-.footer-background {
+.footer-container {
   background-color: #1f2937;
 }
 
@@ -51,4 +52,47 @@
 
 .author-text {
   font-weight: bold;
+}
+
+/* Page flex styling */
+
+/* top header flex styling */
+.header-container {
+  max-width: 100%;
+}
+
+.main-header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-nav ul {
+  text-align: center;
+  margin: 1px 0 0.5px;
+}
+
+.main-nav li {
+  display: inline;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 0.5px 1.5px;
+  text-decoration: none;
+  color: white;
+}
+
+/* header content flex styling */
+
+.header-content .header-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+
+.header-paragraph .header-image {
+  margin: 50px;
 }
