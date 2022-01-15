@@ -32,6 +32,11 @@
 
 .button-and-call {
   background-color: #3882f6;
+  border-color: #f9faf8;
+  margin: 50px;
+  padding: 5px 70px;
+  color: #f9faf8;
+  border-radius: 10px;
 }
 
 .info-header {
@@ -52,6 +57,27 @@
 
 .author-text {
   font-weight: bold;
+}
+
+.quote-section {
+  margin: 20px;
+  padding: 20px;
+}
+
+button {
+  height: fit-content;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3882f6;
+  border-color: #f9faf8;
+  color: #f9faf8;
+  border-radius: 10px;
+  align-content: center;
+}
+
+.footer-container {
+  color: #f9faf8;
 }
 
 /* Page flex styling */
@@ -95,4 +121,57 @@
 
 .header-paragraph .header-image {
   margin: 50px;
+}
+
+/* Main content flex styling */
+
+.info-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-images,
+.main-image-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Quote section flex styling */
+
+.quote-text,
+.author-text {
+  display: flex;
+}
+
+.author-text {
+  justify-content: flex-end;
+}
+
+/* Call section flex styling */
+.call-header,
+.call-text-and-button {
+  display: flex;
+}
+
+.call-text-and-button {
+  justify-content: space-around;
+}
+
+.call-text {
+  margin: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  padding: 30px;
 }
